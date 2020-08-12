@@ -1,5 +1,5 @@
 # Python-Apps
-This contains all the python apps and basic programs which are usually made in C and C++. Most of the apps are in Tkinter but some are in other pytho modules.
+This contains all the python apps and basic programs which are usually made in C and C++. Most of the apps are in Tkinter but some are in other python modules.
 
 Some of the apps include:
 
