@@ -19,4 +19,4 @@ FOR COMMON APP TESTERS, A .exe Version of every application is providedddd.
 Code reference with other applications:
 [(https://www.instagram.com/python.hub/)]
 
-Hope all the projects work for you :+1:
+Hope all the projects work for you
