@@ -8,10 +8,6 @@ The apps include:
 *TIMER
 *COVID TRACKER
 ```
-One app will be uploaded every day 
-
-THESE PROGRAMS ARE ONLY AVAILABLE FOR PYTHON DEVELOPERS WITH SOURCE CODE
-FOR COMMON APP TESTERS, A .exe Version of every application is provided.
 
 Code reference with other applications:
 [(https://www.instagram.com/python.hub/)]
