@@ -6,7 +6,7 @@ Notification (
     
     description = "You have 18 unread messages",
 
-    icon_path = r"C:\Users\sheetal kapoor\Desktop\Common Path\Git\favicon.ico",
+    icon_path = r"favicon Path",
 
     duration = 25,
 
