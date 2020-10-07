@@ -1,5 +1,5 @@
 # Python-Apps
-This contains some of the basic python projects to do in 1 hour
+This contains some of the basic python projects 
 
 The apps include:
 
