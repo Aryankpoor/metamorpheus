@@ -12,6 +12,6 @@ Python version - 3.8.4
 ``
 
 Code reference with other applications:
-[(https://www.instagram.com/python.hub/)]
+[view them here](https://www.instagram.com/python.hub/)
 
 Images are included in the repository of each project in their respective folders
