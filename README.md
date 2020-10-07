@@ -3,15 +3,15 @@ This contains some of the basic python projects to do in 1 hour
 
 The apps include:
 
-```
-*Custom notification
-*TIMER
-*COVID TRACKER
-```
+- Python Notifier: Create and notify yourself with custom notifications
+- PyTimer : Create timers in python
+- Vowelount: The vowel counter in string
+
+``
+Python version - 3.8.4
+``
 
 Code reference with other applications:
 [(https://www.instagram.com/python.hub/)]
 
-Hope all the projects work for you
-
-Images are included in the repository
+Images are included in the repository of each project in their respective folders
