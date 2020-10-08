@@ -6,6 +6,7 @@ The apps include:
 - Python Notifier: Create and notify yourself with custom notifications
 - PyTimer : Create timers in python
 - Vowelount: The vowel counter in string
+- Covid Cases checker - Check the number of covid cases in your country
 
 ``
 Python version - 3.8.4
