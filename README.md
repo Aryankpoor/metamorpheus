@@ -16,3 +16,5 @@ Code reference with other applications:
 [view them here](https://www.instagram.com/python.hub/)
 
 Images are included in the repository of each project in their respective folders
+
+**All PRs are welcome. Feel free to make any contribution**
