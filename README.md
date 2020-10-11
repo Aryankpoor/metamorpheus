@@ -9,7 +9,7 @@ The apps include:
 - Covid Cases checker - Check the number of covid cases in your country
 
 ``
-Python version - 3.8.4
+Python version - 3.8.6
 ``
 
 Code reference with other applications:
