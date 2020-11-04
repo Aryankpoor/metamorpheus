@@ -19,3 +19,6 @@ Images are included in the repository of each project in their respective folder
 
 **All PRs are welcome. Feel free to make any contribution**
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+
+These are coy paste projects: 
+[![forthebadge](https://forthebadge.com/images/badges/ctrl-c-ctrl-v.svg)](https://forthebadge.com)
