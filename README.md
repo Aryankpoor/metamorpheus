@@ -22,3 +22,5 @@ Images are included in the repository of each project in their respective folder
 
 These are copy paste projects: <br>
 [![forthebadge](https://forthebadge.com/images/badges/ctrl-c-ctrl-v.svg)](https://forthebadge.com)
+
+Make sure to show your love to this repo by conntributing to it
