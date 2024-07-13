@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <div className='main'>
         <div className="nav">
-            <p>Core Assistant</p>
+            <p>Core Assistant Inspired by Gemini</p>
             <img src={assets.user_icon} alt="" />
         </div>
         <div className="main-container">
@@ -42,7 +42,7 @@ const Main = () => {
                         <img src={assets.send_icon} alt="" />
                     </div>
                 </div>
-                <p className="bottom-info">Core may display inaccurate info, including about people, so double-check it's responses</p>
+                <p className="bottom-info">Made using Gemini Api. Core may display inaccurate info, including about people, so double-check it's responses</p>
             </div>
         </div>
     </div>
