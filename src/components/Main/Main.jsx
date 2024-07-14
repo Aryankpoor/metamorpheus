@@ -11,7 +11,7 @@ const Main = () => {
     <div className='main'>
         <div className="nav">
             <p>METAMORPHEUS - HACKCLUB'S VERY OWN VIRTUAL ASSISTANT</p>
-            <img src={assets.user_icon} alt="" />
+            <img src={assets.icon_rounded} alt="" />
         </div>
 
 
