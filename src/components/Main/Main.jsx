@@ -15,7 +15,7 @@ const Main = () => {
         
         <div className="nav">
             <p>METAMORPHEUS - HACKCLUB'S VERY OWN VIRTUAL ASSISTANT</p>
-            <a href="https://hackclub.com" target="_blank"><img src={assets.icon_square} alt="" /></a>
+            <a href="https://hackclub.com" target="_blank"><img src={assets.color_icon} alt="" /></a>
         </div>
 
 
