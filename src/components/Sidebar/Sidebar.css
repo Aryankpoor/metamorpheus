@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+
 .sidebar {
     min-height: 100vh;
     display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #f0f0f0;
+    background-color: #AB4900;
     padding: 25px 15px;
 }
 
@@ -28,6 +30,16 @@
     font-size: 14px;
     color: grey;
     cursor: pointer;
+    
+}
+
+.sidebar .top .new-chat {
+    background-color: #078C90;
+}
+
+.sidebar .new-chat p {
+    font-family: "Slackey", sans-serif;
+    color: white;
 }
 
 .sidebar .recent {
@@ -64,3 +76,7 @@
     padding-right: 10px;
     cursor: pointer;
 }   
+
+.sidebar .bottom .bottom-item p{
+    font-family: "Slackey", sans-serif;
+}

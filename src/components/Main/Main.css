@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+
 .main {
     flex: 1;
     min-height: 100vh;
@@ -12,6 +14,11 @@
     font-size: 22px;
     padding: 20px;
     color: #585858;
+    font-weight: 800;
+}
+
+.main .nav p{
+    font-family: "Slackey", sans-serif;
 }
 
 .main .nav img{
@@ -117,6 +124,7 @@
     font-size: 13px;
     margin: 15px auto;
     text-align: center;
+    font-family: "Slackey", sans-serif;
     font-weight: 300;
 }
 
@@ -159,7 +167,7 @@
     border-radius: 4px;
     border: none;
     background-color: #f6f7f8;
-    background: linear-gradient(to right,#9ed7ff,#ffffff,#9ed7ff);
+    background: linear-gradient(to right, #ffb629 0, #ffa537 10%, #ff9243 20%, #ff7e4b 30%, #ff6951 40%, #f25353 50%, #d93f53 60%, #c22f54 70%, #ad2355 80%, #9b1b56 90%, #8c1859 100%);
     background-size: 800px 50px;
     height: 20px;
     animation: loader 3s infinite linear;
@@ -179,3 +187,4 @@
     font-weight: 300;
     line-height: 1.8;
 }
+
