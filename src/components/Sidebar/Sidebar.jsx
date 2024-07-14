@@ -2,6 +2,7 @@ import React, { useContext, useState } from "react";
 import "./Sidebar.css";
 import { assets } from "../../assets/assets";
 import { Context } from "../../context/Context";
+import Icon from '@hackclub/icons'
 
 const Sidebar = () => {
   const [extended, setExtended] = useState(false);
@@ -37,15 +38,15 @@ const Sidebar = () => {
       </div>
       <div className="bottom">
         <div className="bottom-item recent-entry">
-          <img src={assets.question_icon} alt="question icon" />
+        <Icon glyph="info" size={24} />
           {extended?<p>Help</p>:null}
         </div>
         <div className="bottom-item recent-entry">
-          <img src={assets.history_icon} alt="question icon" />
+        <Icon glyph="admin" size={28} />
           {extended?<p>Creator</p>:null}
         </div>
         <div className="bottom-item recent-entry">
-          <img src={assets.setting_icon} alt="question icon" />
+        <Icon glyph="important-fill" size={24} />
           {extended?<p>Report An Issue</p>:null}
         </div>
       </div>

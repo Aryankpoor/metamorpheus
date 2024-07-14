@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
 
 .main {
     flex: 1;
     min-height: 100vh;
     padding-bottom: 15vh;
     position: relative;
+    background-color: #402D00;
 }
 
 .main .nav {
@@ -39,11 +41,16 @@
     padding: 20px;
 }
 
+.main .greet p{
+    font-family: 'gaegu', sans-serif;
+}
+
 .main .greet span{
-    background: -webkit-linear-gradient(16deg,#4b90ff,#ff5546);
+    background: linear-gradient(180deg, #ffb629 0, #ffa537 10%, #ff9243 20%, #ff7e4b 30%, #ff6951 40%, #f25353 50%, #d93f53 60%, #c22f54 70%, #ad2355 80%, #9b1b56 90%, #8c1859 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    font-family: "Slackey", sans-serif;
 }
 
 .main .cards {
@@ -95,7 +102,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    background-color: #f0f4f9;
+    background-color: #20A3A7;
     padding: 10px 20px;
     border-radius: 50px;
 }
@@ -106,12 +113,18 @@
 }
 
 .search-box input{
+    margin-top: -12px;
     flex: 1;
     outline: none;
     background: transparent;
     padding: 8px;
     border: none;
     font-size: 18px;
+}
+
+.search-box input::placeholder{
+    font-family: 'slackey', sans-serif;
+    color: white;
 }
 
 .search-box div{
@@ -121,11 +134,11 @@
 }
 
 .main .bottom-info {
-    font-size: 13px;
+    font-size: 19px;
     margin: 15px auto;
     text-align: center;
-    font-family: "Slackey", sans-serif;
-    font-weight: 300;
+    font-family: "Gaegu", sans-serif;
+    font-weight: 600;
 }
 
 .result {
@@ -143,6 +156,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
+    color: white;
 }
 
 .result img{
@@ -154,6 +168,7 @@
     display: flex;
     align-items: start;
     gap: 20px;
+    color: white;
 }
 
 .loader {
@@ -173,6 +188,14 @@
     animation: loader 3s infinite linear;
 }
 
+.result-data p{
+    font-family: 'gaegu', sans-serif;
+}
+
+.result .result-title p {
+    font-family: 'slackey', sans-serif;
+}
+
 @keyframes loader {
     0%{
         background-position: -800px 0px;
@@ -187,4 +210,3 @@
     font-weight: 300;
     line-height: 1.8;
 }
-

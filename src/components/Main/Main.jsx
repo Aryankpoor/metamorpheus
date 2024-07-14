@@ -2,16 +2,21 @@ import React, { useContext } from 'react'
 import './Main.css'
 import { assets } from '../../assets/assets'
 import { Context } from '../../context/Context'
+import Icon from '@hackclub/icons'
 
 const Main = () => {
 
    const {onSent,recentPrompt,showResult,loading,resultData,input,setInput} = useContext(Context);
 
+   
+
   return (
     <div className='main'>
+
+        
         <div className="nav">
             <p>METAMORPHEUS - HACKCLUB'S VERY OWN VIRTUAL ASSISTANT</p>
-            <img src={assets.user_icon} alt="" />
+            <a href="https://hackclub.com" target="_blank"><img src={assets.rounded_icon} alt="" /></a>
         </div>
 
 
@@ -26,11 +31,11 @@ const Main = () => {
            
             </>:<div className='result'>
                 <div className="result-title">
-                    <img src={assets.user_icon} alt="" />
-                    <p>{recentPrompt}</p>
+                    <img src={assets.rounded_icon} alt="" className='response-img' />
+                    <p className='recent-prompt'>{recentPrompt}</p>
                 </div>
                 <div className="result-data">
-                    <img src={assets.gemini_icon} alt="" />
+                    
                     {loading?
                     <div className='loader'>
                         <hr />
