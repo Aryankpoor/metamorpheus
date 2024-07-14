@@ -2,7 +2,6 @@ import React, { useContext } from 'react'
 import './Main.css'
 import { assets } from '../../assets/assets'
 import { Context } from '../../context/Context'
-import Icon from '@hackclub/icons'
 
 const Main = () => {
 
@@ -16,7 +15,7 @@ const Main = () => {
         
         <div className="nav">
             <p>METAMORPHEUS - HACKCLUB'S VERY OWN VIRTUAL ASSISTANT</p>
-            <a href="https://hackclub.com" target="_blank"><img src={assets.rounded_icon} alt="" /></a>
+            <a href="https://hackclub.com" target="_blank"><img src={assets.icon_square} alt="" /></a>
         </div>
 
 

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 .main {
     flex: 1;
@@ -113,7 +114,7 @@
 }
 
 .search-box input{
-    margin-top: -12px;
+    margin-top: -8px;
     flex: 1;
     outline: none;
     background: transparent;
@@ -189,7 +190,7 @@
 }
 
 .result-data p{
-    font-family: 'gaegu', sans-serif;
+    font-family: "Comic Neue", sans-serif;
 }
 
 .result .result-title p {
