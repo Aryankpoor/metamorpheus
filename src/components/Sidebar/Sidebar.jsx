@@ -23,12 +23,12 @@ const Sidebar = () => {
         </div>
         {extended 
         ? <div className="recent">
-            <p className="recent-title">Recent</p>
+            <p className="recent-title">Recent Adventures</p>
             {prevPrompts.map((item,index)=>{
               return (
                 <div onClick={()=>loadPrompt(item)} className="recent-entry">
               <img src={assets.message_icon} alt="message icon" />
-              <p>{item.slice(0,18)} ...</p>
+              <p><b>{item.slice(0,18)} ...</b></p>
             </div>
               )
             })}
@@ -38,16 +38,16 @@ const Sidebar = () => {
       </div>
       <div className="bottom">
         <div className="bottom-item recent-entry">
-        <Icon glyph="info" size={24} />
-          {extended?<p>Help</p>:null}
+        
+          {extended?<><img src={assets.sound_icon} alt="" /><button className="side-btn"><p>Sound</p></button></>:null}
         </div>
         <div className="bottom-item recent-entry">
-        <Icon glyph="admin" size={28} />
-          {extended?<p>Creator</p>:null}
+        <Icon glyph="info" size={24} />
+          {extended?<a className="side-links" href="https://github.com/Aryankpoor/metamorpheus/blob/master/README.md" target="_blank"><p>Help</p></a>:null}
         </div>
         <div className="bottom-item recent-entry">
         <Icon glyph="important-fill" size={24} />
-          {extended?<p>Report An Issue</p>:null}
+          {extended?<a href="https://github.com/Aryankpoor/metamorpheus/issues" target="_blank" className="side-links"><p>Report An Issue</p></a>:null}
         </div>
       </div>
     </div>
