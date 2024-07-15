@@ -1,4 +1,4 @@
-import GEMINI_API_KEY from '../../apikey';
+import GEMINI_API_KEY from '../../apikey.js';
 
 import {
     GoogleGenerativeAI,
