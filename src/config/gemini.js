@@ -1,3 +1,5 @@
+import GEMINI_API_KEY from '../../apikey.js';
+
 import {
     GoogleGenerativeAI,
     HarmCategory,
@@ -5,7 +7,7 @@ import {
 } from "@google/generative-ai"
 
 const MODEL_NAME = "gemini-1.0-pro";
-const API_KEY = "AIzaSyCKf85sThfsfyIkXJ_LFkxhWJ8xKNuR04g";
+const API_KEY = GEMINI_API_KEY;
 
 async function runChat(prompt) {
     const genAI = new GoogleGenerativeAI(API_KEY);

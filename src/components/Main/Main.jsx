@@ -26,7 +26,7 @@ const Main = () => {
                 <p>Ask me Anything</p>
             </div> <div className="cards">
                 <div className="card">
-                    <p><b>DID YOU KNOW? Metamorpheus uses Gemini API.</b></p>
+                    <p><b>DID YOU KNOW? Metamorpheus currently uses Gemini API. Type who are you and see what happens!</b></p>
                     <img src={assets.message_icon} alt="" />
                 </div>
                 <div className="card">
@@ -38,7 +38,7 @@ const Main = () => {
                     <img src={assets.message_icon} alt="" />
                 </div>
                 <div className="card">
-                    <p><b>USAGE INFORMATION: Response time of metamorphosis depends upon the complexity of the prompt.</b></p>
+                    <p><b>USAGE INFORMATION: Response time of metamorphosis depends upon the complexity of the prompt and the server side computing power.</b></p>
                     <img src={assets.message_icon} alt="" />
                 </div>
             </div>
