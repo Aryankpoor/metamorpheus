@@ -7,9 +7,9 @@ const Main = () => {
 
    const {onSent,recentPrompt,showResult,loading,resultData,input,setInput} = useContext(Context);
 
-   useEffect(() => {
+  /* useEffect(() => {
     document.addEventListener('keydown', detectKeyDown, true)
-   }, [])
+   }, []) */
 
  //  const detectKeyDown = (e) => {
  //   console.log("Clicked Key:", e.key)
