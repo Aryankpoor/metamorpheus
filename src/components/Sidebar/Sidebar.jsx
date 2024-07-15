@@ -37,10 +37,7 @@ const Sidebar = () => {
         : null}
       </div>
       <div className="bottom">
-        <div className="bottom-item recent-entry">
         
-          {extended?<><img src={assets.sound_icon} alt="" /><button className="side-btn"><p>Sound</p></button></>:null}
-        </div>
         <div className="bottom-item recent-entry">
         <Icon glyph="info" size={24} />
           {extended?<a className="side-links" href="https://github.com/Aryankpoor/metamorpheus/blob/master/README.md" target="_blank"><p>Help</p></a>:null}

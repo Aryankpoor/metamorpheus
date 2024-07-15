@@ -48,6 +48,7 @@
 .sidebar .recent {
     display: flex;
     flex-direction: column;
+    animation: fadeIn 1.5s;
 }
 
 .sidebar .recent-title {
@@ -112,4 +113,10 @@
 .side-links {
     text-decoration: none;
     color: #282828;
+}
+
+@media (max-width:600px){
+    .sidebar {
+        display: none;  
+    }
 }

@@ -155,23 +155,6 @@
     animation: typing 2s steps(30, end);
   }
 
-  @keyframes shake {
-    0% {
-      transform: translateX(0);
-    }
-    25% {
-      transform: translateX(-5px) rotate(-5deg);
-    }
-    50% {
-      transform: translateX(5px) rotate(5deg);
-    }
-    75% {
-      transform: translateX(-5px) rotate(-5deg);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
 
 .search-box img{
     width: 24px;
@@ -371,3 +354,18 @@
     backdrop-filter: blur(4px);
   }
   
+@media (max-width:600px) {
+    .main-bottom input {
+        flex: none;
+        width: 150px;
+    }
+    .main-bottom img{
+        width: 20px;
+    }
+    .search-box {
+        padding: 5px 10px;
+    }
+    .search-box div{
+        gap: 5px;
+    }
+}

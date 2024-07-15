@@ -64,11 +64,11 @@ const Main = () => {
             <div className="main-bottom">
                 <div className="search-box">
                     
-                    <input className='input' type="text" onChange={(e)=>setInput(e.target.value)} value={input} placeholder="I can be a little slow, sowwy..."
+                    <input className='input' type="text" onChange={(e)=>setInput(e.target.value)} value={input} placeholder="write Clear prompt to see what happens"
                      />
                      
                     <div>
-                        <img src={assets.send_icon} onClick={()=>onSent()} className='send-btn' alt="" />
+                       {input?<img src={assets.send_icon} onClick={()=>onSent()} className='send-btn' alt="" />:null} 
                     </div>
                 </div>
                 <p className="bottom-info">
