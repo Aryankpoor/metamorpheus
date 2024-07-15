@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect } from 'react'
 import './Main.css'
 import { assets } from '../../assets/assets'
 import { Context } from '../../context/Context'
@@ -7,7 +7,16 @@ const Main = () => {
 
    const {onSent,recentPrompt,showResult,loading,resultData,input,setInput} = useContext(Context);
 
-   
+   useEffect(() => {
+    document.addEventListener('keydown', detectKeyDown, true)
+   }, [])
+
+ //  const detectKeyDown = (e) => {
+ //   console.log("Clicked Key:", e.key)
+  //  if( e.key === "Enter" ) {
+        
+ //   }
+  // }
 
   return (
     <div className='main'>
@@ -48,15 +57,21 @@ const Main = () => {
 
             <div className="main-bottom">
                 <div className="search-box">
-                    <input type="text" onChange={(e)=>setInput(e.target.value)} value={input} placeholder="Enter a prompt here" />
-                    <div>
+                    <input className='inputtag' type="text" onChange={(e)=>setInput(e.target.value)} value={input} placeholder="Enter a prompt here"
+                    onKeyDown={(e) => {
+                        if (e.key === 'Enter') 
+                            handlerFunction();
                         
-                        <img src={assets.send_icon} onClick={()=>onSent()} alt="" />
+                    }} />
+                    <div>
+                        <img src={assets.send_icon} onClick={()=>onSent()} className='send-btn' alt="" />
                     </div>
                 </div>
                 <p className="bottom-info">Made using Gemini Api. MetaMorpheus may display inaccurate info, including about people, so double-check it's responses</p>
             </div>
         </div>
+        
+        
     </div>
   )
 }
