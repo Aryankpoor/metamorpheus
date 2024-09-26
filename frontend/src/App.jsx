@@ -12,7 +12,7 @@ const App = () => {
   )
 }
 
-const client = new Client();
+const client = new Vite();
 
 client
     .setEndpoint('https://cloud.appwrite.io/v1')
