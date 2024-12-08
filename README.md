@@ -1,7 +1,7 @@
 # Metamorpheus 
 [![forthebadge](https://forthebadge.com/images/featured/featured-built-with-love.svg)](https://forthebadge.com)
 
-An AI assistant made as part of [Arcade by Hackclub](https://hackclub.com) using Google Gemini API
+An AI assistant made as part of [Arcade by Hackclub](https://hackclub.com/arcade) using Google Gemini API
 
 ## How does metamorpheus work ?
 
